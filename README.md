@@ -32,3 +32,6 @@ $ npm run dev
 # build for production with minification
 $ npm run build
 ```
+
+```
+### 最后 感谢所有关注点赞的朋友~~
