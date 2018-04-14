@@ -20,8 +20,8 @@
 ## :package: HOW TO USE
 
 ``` bash
-# clone the repo into your disk.
-$ git clone https://github.com/FSD001/MT-app
+
+$ git clone https://github.com/FSD001/MT-APP.git
 
 # install dependencies
 $ npm install
