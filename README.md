@@ -4,13 +4,31 @@
 
 ## 技术栈
 
-- **Vue**：构建用户界面的 MVVM 框架，核心是响应的双向数据绑定和组件系统
-- **vue-router**：为单页面应用提供的路由系统，项目上线前使用了路由懒加载技术，来异步加载路由优化性能
-- **vuex**：集中状态管理，在多个组件共享某些状态时非常便捷
-- **axios**：服务端通讯。基于 `Promise` 的网络请求插件
-- **vue-lazyload**：第三方图片懒加载库，优化页面加载速度
-- **better-scroll**：iscroll 的优化版，使移动端滑动体验更加流畅
-- **Mint UI**：一套基于 Vue 2.0 的移动端组件库，出自饿了么前端
-- **Sass(Scss)**：css 预编译处理器
-- **ES6**：ECMAScript 新一代语法，模块化、解构赋值... 等方法非常好用
-- **Moment.js**：日期时间格式化插件
+**前端**
+
+- `vue`+`vuex`+`vue-router`+`axios`+`sass`+`es6`+`vue-lazyload`+`better-scroll`+`Mint UI`+`Moment.js`
+
+**后端**
+
+- **Node.js**：利用 Express 起一个本地测试服务器
+- **Express**：一个自身功能极简，完全是由路由和中间件构成一个的WEB开发框架
+
+**构建工具**
+
+- **vue-cli**：Vue 脚手架工具，快速初始化项目代码
+
+## :package: HOW TO USE
+
+``` bash
+# clone the repo into your disk.
+$ git clone https://github.com/FSD001/MT-app
+
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:8080
+$ npm run dev
+
+# build for production with minification
+$ npm run build
+```
